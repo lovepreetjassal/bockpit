@@ -3,6 +3,6 @@ import { MainComponent } from './components/main/main.component';
 import { TrimComponent } from './components/trim/trim.component';
 
 export const routes: Routes = [
-    {path:'',component:MainComponent},
-    {path:'trim',component:TrimComponent},
+    { path: '', component: MainComponent },
+    { path: 'trim', component: TrimComponent },
 ];
