@@ -1,0 +1,10 @@
+#tools{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trim{
+    width: 80%;
+}
