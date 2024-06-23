@@ -1,0 +1,20 @@
+<div id="main">
+    <form>
+        <mat-form-field>
+            <mat-label>Enter timestamp</mat-label>
+            <input name="unixtime" matInput [(ngModel)]="unixtime" (input)="changed()" type="number">
+        </mat-form-field>
+    </form>
+    
+    <div style="display: flex;flex-direction: column;">
+        <span>
+            Date: {{date}}
+        </span>
+        <span>
+            Time: {{time}}
+        </span>
+        <span>
+            UTC: {{utc}}
+        </span>
+    </div>
+</div>

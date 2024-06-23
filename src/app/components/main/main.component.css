@@ -1,10 +1,17 @@
 #tools{
     height: 100vh;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-#trim{
-    width: 80%;
+.tools{
+    margin:1em;
+}
+@media only screen and (max-width: 600px) {
+    #tools{
+        width: 40%;
+    }
 }
