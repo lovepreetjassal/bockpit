@@ -1,6 +1,6 @@
 #tools{
     height: 100vh;
-    width: 100%;
+    width: 30%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -9,9 +9,15 @@
 
 .tools{
     margin:1em;
+    width: 100%;
 }
 @media only screen and (max-width: 600px) {
     #tools{
-        width: 40%;
+        width: 100%;
+    }
+
+    .tools{
+        margin:1em;
+        width: 90%;
     }
 }
